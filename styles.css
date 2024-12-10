@@ -1,111 +1,60 @@
-/* Estilos comunes */
-html {
-    height: 100vh;
-}
-
-main {
-    background-color: #F68134;
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    align-items: center;
-}
-
-footer {
-    height: 10%;
-    background-color: skyblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    color: white;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:visited {
-    color: black;
-}
-
-a:hover {
-    color: blue;
-}
-/* Estilos específicos para la página 'frog' */
-body.frog {
+* {
     margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
+/* Frog page */
 img.frog {
     width: 100%;
     height: 100%;
 }
 
+main.frog {
+    background-color: #F68134;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 p.frog {
-    position: relative;
-    background-color: skyblue;
-    border-radius: 10%;
-    width: 15%;
-    height: 50%;
+    text-align: center;
+    background-color: #6AC5E2;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 100px;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
 }
 
-/* Estilos específicos para la página 'chameleon' */
-
-body.chameleon {
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
+a.frog {
+    color: white;
+    font-size: 64px;
+    text-decoration: none;
 }
 
-header.chameleon {
-    background-color: skyblue ;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    p {
-        margin: 0 10px;
-    }
-}
-
-main.chameleon {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-img.chameleon {
-    width: 20%;
-    height: auto;
-    position: relative;
-    border: 100px solid skyblue;
-    border-radius: 5%;
-}
-
-p.nose {
-    position: absolute;
-    top: 100px;
+a.frog:visited {
     color: black;
 }
 
-p.chameleon {
-    position: absolute;
-    bottom: 100px;
+a.frog:hover {
+    color: #2D68B8;
+}
+
+footer.frog {
+    text-align: center;
+    padding: 15px;
+    background-color: #6AC5E2;
+    color: white;
 }
